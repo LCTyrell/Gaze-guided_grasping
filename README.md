@@ -45,4 +45,8 @@ Although this project is focused on creating the “Object Looked Estimation” 
 
 This project is part of a larger reflection on robotic wheelchairs where the OAK-D or a variant could play a role: autonomous navigation, gaze-guided pointer controller for additional device, surveillance and security alert, collision avoidance...  
 
+But if we want all of this to really benefit people, then the price of robotic arms will have to be lowered. For this, the use of neural networks instead of kinematics, gives hope for the possibility of using less precise but more adaptable arms and therefore less expensive.
+
+![Kino](Utils/price.png )
+
 ![Kino](Utils/kinova-WMRA.jpeg )

@@ -1,7 +1,7 @@
 # Gaze-guided grasping for wheelchair-mounted robotic arm
 
 
-<img src="https://github.com/LCTyrell/Gaze-guided_grasping/Utils/WMRA_pres.jpg"/>
+
 
 Recent advances in AI are leading to major advances in robotics that will benefit service and assistance to people.
 
@@ -13,9 +13,9 @@ There are already robotic arms mounted on wheelchairs that partially quadriplegi
 
 As part of this challenge, we propose to develop a gaze-guided grasping for wheelchair mounted robotic arm to free the user from the complex manipulation and constant attention required for the use of the arm and thus improve the ease of use. More precisely, we offer assistance in reaching the objects, the final grasping phase being always a subject of research and we want to offer an immediately feasible solution.
 
-# Method
+# Method  
 
-# Object Looked Estimation model
+## Object Looked Estimation model  
 
 For this objective, we will use two OAK-D (a limited POC can be done with one OAK-D), one directed in front of the user to estimate the direction of his gaze and determine the coordinates of his eyes (x, y, z ) and one in the opposite direction to detect the object in front of the user and their positions.
 

@@ -1,5 +1,7 @@
 # Gaze-guided grasping for wheelchair-mounted robotic arm
 
+![Alt Text](Utils/WMRA_pres.jpg)
+
 Recent advances in AI are leading to major advances in robotics that will benefit service and assistance to people.
 
 The new capabilities of robotics will improve the quality of life of many disabled people and more particularly those with severe disabilities.

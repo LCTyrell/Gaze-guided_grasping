@@ -1,7 +1,6 @@
 # Gaze-guided grasping for wheelchair-mounted robotic arm
 
-
-
+![Pres](Utils/WMRA_pres.jpg)
 
 Recent advances in AI are leading to major advances in robotics that will benefit service and assistance to people.
 
@@ -13,16 +12,18 @@ There are already robotic arms mounted on wheelchairs that partially quadriplegi
 
 As part of this challenge, we propose to develop a gaze-guided grasping for wheelchair mounted robotic arm to free the user from the complex manipulation and constant attention required for the use of the arm and thus improve the ease of use. More precisely, we offer assistance in reaching the objects, the final grasping phase being always a subject of research and we want to offer an immediately feasible solution.
 
-# Method  
+## Method  
 
-## Object Looked Estimation model  
+### Object Looked Estimation model  
 
 For this objective, we will use two OAK-D (a limited POC can be done with one OAK-D), one directed in front of the user to estimate the direction of his gaze and determine the coordinates of his eyes (x, y, z ) and one in the opposite direction to detect the object in front of the user and their positions.
 
 The Gaze Estimation model comes from Intel Openvino. The implementation on NCS2 by the single member of the LCT Robocare team has been ported to DepthAI by the Luxonis team. The NCS2 implementation can be found on Github here:  
 <link rel="https://github.com/LCTyrell/Gaze_estimation" href="https://github.com/LCTyrell/Gaze_estimation">
 
-The coordinates (x, y) and depth (z) position of the eyes will be determined using the stereo depth capability of the OAK-D and the landmark detection model already used as part of the gaze estimation model. For a full description, see the attached diagram.
+The coordinates (x, y) and depth (z) position of the eyes will be determined using the stereo depth capability of the OAK-D and the landmark detection model already used as part of the gaze estimation model.
+
+![Pres](Utils/WMRA_diag.jpeg)
 
 Object detection with depth coordinates was a feature implemented very early by the Luxonis team and one of the reasons for the success of the OAK-D. It output bounding boxes, from the detected objects, located in space (x, y, z).
 
@@ -30,9 +31,14 @@ Afterward the two coordinate systems of the two OAK-Ds can be combined into one 
 
 Finally, we can send the coordinates to a robotic arm, to reach the object, with a “classic” inverse kinematic algorithm.
 
+### Robotic Arm
+
 Although this project is focused on creating the “Object Looked Estimation” model, if time permits, we will be doing a demo with a robotic arm on a simulation (Unity), and / or an inexpensive educational robotic arm (Poppy Ergo Jr). Both are ROS compatible.
-More information about this on the project's Github page:
-https://github.com/LCTyrell/Gaze_estimation.
+
+![Rob](Utils/WMArm.gif )
+
+## Conclusion
 
 This project is part of a larger reflection on robotic wheelchairs where the OAK-D or a variant could play a role: autonomous navigation, gaze-guided pointer controller for additional device, surveillance and security alert, collision avoidance...  
 
+![Kino](Utils/kinova-WMRA.jpeg )

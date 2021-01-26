@@ -1,6 +1,7 @@
 # Gaze-guided grasping for wheelchair-mounted robotic arm
 
-![Alt Text](Utils/WMRA_pres.jpg)
+
+<img src="Utils/WMRA_pres.jpg" alt="hi" class="inline"/>
 
 Recent advances in AI are leading to major advances in robotics that will benefit service and assistance to people.
 

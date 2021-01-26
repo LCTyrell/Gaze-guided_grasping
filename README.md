@@ -14,6 +14,8 @@ As part of this challenge, we propose to develop a gaze-guided grasping for whee
 
 ## Method  
 
+![Pres](Utils/WMR-arm.jpeg)
+
 ### Object Looked Estimation model  
 
 For this objective, we will use two OAK-D (a limited POC can be done with one OAK-D), one directed in front of the user to estimate the direction of his gaze and determine the coordinates of his eyes (x, y, z ) and one in the opposite direction to detect the object in front of the user and their positions.
@@ -23,18 +25,20 @@ The Gaze Estimation model comes from Intel Openvino. The implementation on NCS2 
 
 The coordinates (x, y) and depth (z) position of the eyes will be determined using the stereo depth capability of the OAK-D and the landmark detection model already used as part of the gaze estimation model.
 
-![Pres](Utils/WMRA_diag.jpeg)
-
 Object detection with depth coordinates was a feature implemented very early by the Luxonis team and one of the reasons for the success of the OAK-D. It output bounding boxes, from the detected objects, located in space (x, y, z).
 
 Afterward the two coordinate systems of the two OAK-Ds can be combined into one coordinate system. And then we can detect if the gaze direction intercepts any of the detected objects.
 
 Finally, we can send the coordinates to a robotic arm, to reach the object, with a “classic” inverse kinematic algorithm.
 
+#### Object Looked Estimation model pipeline :
+![Pres](Utils/WMRA_diag.jpeg)
+
 ### Robotic Arm
 
 Although this project is focused on creating the “Object Looked Estimation” model, if time permits, we will be doing a demo with a robotic arm on a simulation (Unity), and / or an inexpensive educational robotic arm (Poppy Ergo Jr). Both are ROS compatible.
 
+#### Test carried out on the Unity-ML agent robotic platform:
 ![Rob](Utils/WMArm.gif )
 
 ## Conclusion

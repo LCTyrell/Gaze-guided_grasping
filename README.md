@@ -21,7 +21,7 @@ As part of this challenge, we propose to develop a gaze-guided grasping for whee
 For this objective, we will use two OAK-D (a limited POC can be done with one OAK-D), one directed in front of the user to estimate the direction of his gaze and determine the coordinates of his eyes (x, y, z ) and one in the opposite direction to detect the object in front of the user and their positions.
 
 The Gaze Estimation model comes from Intel Openvino. The implementation on NCS2 by the single member of the LCT Robocare team has been ported to DepthAI by the Luxonis team. The NCS2 implementation can be found on Github here:  
-[https://github.com/LCTyrell/Gaze_estimation][https://github.com/LCTyrell/Gaze_estimation]
+[https://github.com/LCTyrell/Gaze_estimation](https://github.com/LCTyrell/Gaze_estimation)
 
 The coordinates (x, y) and depth (z) position of the eyes will be determined using the stereo depth capability of the OAK-D and the landmark detection model already used as part of the gaze estimation model.
 

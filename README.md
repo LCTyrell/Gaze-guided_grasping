@@ -63,4 +63,5 @@ This project is part of a larger reflection on robotic wheelchairs where the OAK
 
 But if we want all of this to really benefit as many people as possible, then the price of robotic technology must be lowered. From this perspective, the use of neural networks instead of kinematics, gives hope for the possibility of using robotic arms that are less precise but more adaptable and therefore less expensive. By lowering the price of Stereo-Depth + AI integration, and by opensourcing its boards, Luxonis-DepthAI products are also moving in this direction.
 
+*Kinova Jaco robotic arm:*
 ![Kino](Utils/kinova-WMRA.jpeg )

@@ -36,16 +36,28 @@ Finally, we can send the coordinates to a robotic arm, to reach the object, with
 
 ### Robotic Arm
 
-Although this project is focused on creating the “Object Looked Estimation” model, if time permits, we will be doing a demo with a robotic arm on a simulation (Unity), and / or an inexpensive educational robotic arm (Poppy Ergo Jr). Both are ROS compatible.
+Although this project is focused on creating the “Object Looked Estimation” model, if time permits, we will be doing a demo with a robotic arm on a simulation (Unity), and/or an inexpensive educational robotic arm (Poppy Ergo Jr). Both are ROS compatible.
 
-#### Test carried out on the Unity-ML agent robotic platform:
+#### Unity ML-Agents
+*Test carried out on the Unity-ML agent robotic platform:*  
+
 ![Rob](Utils/WMArm.gif )
+
+Preliminary tests have been carried out on the Unity ML-Agents robotic platform.
+The simulation allows you to quickly test many camera positions and the effect of different camera focal lengths.
+In addition, ML agents allow training neural networks to reach / grab an object. This method, unlike reverse kinematics, makes it possible to use less precise motors and therefore drastically reduce the price of the robotic arm used for this type of task.
+It's not part of the competition, but an interesting path to follow afterwards.
+
+#### Poppy Ergo Jr robotic arm
+Ergo Jr is an economical robotic arm designed for education.
+
+![Rob](Utils/MoveIt.gif )
 
 ## Conclusion
 
 This project is part of a larger reflection on robotic wheelchairs where the OAK-D or a variant could play a role: autonomous navigation, gaze-guided pointer controller for additional device, surveillance and security alert, collision avoidance...  
 
-But if we want all of this to really benefit as many people as possible, then the price of robotic technology must be lowered. From this perspective, the use of neural networks instead of kinematics, gives hope for the possibility of using robotic arms that are less precise but more adaptable and therefore less expensive.
+But if we want all of this to really benefit as many people as possible, then the price of robotic technology must be lowered. From this perspective, the use of neural networks instead of kinematics, gives hope for the possibility of using robotic arms that are less precise but more adaptable and therefore less expensive. By lowering the price of Stereo-Depth + AI integration, and by opensourcing its boards, Luxonis-DepthAI products are also moving in this direction.
 
 ![Kino](Utils/price.png )
 

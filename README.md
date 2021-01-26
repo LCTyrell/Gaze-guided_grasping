@@ -49,7 +49,7 @@ In addition, ML agents allow training neural networks to reach / grab an object.
 It's not part of the competition, but an interesting path to follow afterwards.
 
 #### Poppy Ergo Jr robotic arm
-Ergo Jr is an economical robotic arm designed for education.
+Ergo Jr is an economical robotic arm designed for education (GIF from ROS4PRO).
 
 ![Rob](Utils/MoveIt.gif )
 

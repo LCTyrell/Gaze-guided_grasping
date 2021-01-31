@@ -16,7 +16,7 @@ As part of this challenge, we propose to develop a gaze-guided grasping for whee
 
 ![Pres](Utils/WMR-arm.jpeg)
 
-### Object Looked Estimation model  
+### Object Looked-at Estimation model  
 
 For this objective, we will use two OAK-D (a limited POC can be done with one OAK-D), one directed in front of the user to estimate the direction of his gaze and determine the coordinates of his eyes (x, y, z ) and one in the opposite direction to detect the object in front of the user and their positions.
 
@@ -35,7 +35,7 @@ Afterward the two coordinate systems of the two OAK-Ds can be combined into one 
 
 Finally, we can send the coordinates to a robotic arm, to reach the object, with a “classic” inverse kinematic algorithm.
 
-#### Object Looked Estimation model pipeline :
+#### Object Looked-at Estimation model pipeline :
 ![Pres](Utils/WMRA_diag.jpeg)
 
 ### Robotic Arm
@@ -65,7 +65,7 @@ The prohibitive price of robotic arms (and even more specialized arms) forces us
 
 This project is part of a larger reflection on robotic wheelchairs where the OAK-D or a variant could play a role: autonomous navigation, gaze-guided pointer controller for additional device, surveillance and security alert, collision avoidance...  
 
-But if we want all of this to really benefit as many people as possible, then the price of robotic technology must be lowered. From this perspective, the use of neural networks instead of kinematics, gives hope for the possibility of using robotic arms that are less precise but more adaptable and therefore less expensive. By lowering the price of Stereo-Depth + AI integration, and by opensourcing its boards, Luxonis-DepthAI products are also moving in this direction.
+But if we want all of this to really benefit as many people as possible, then the price of robotic technology must be lowered. From this perspective, the use of neural networks instead of kinematics, gives hope for the possibility of using robotic arms which require less precision, are more adaptable and therefore less expensive. By lowering the price of Stereo-Depth + AI integration, and by opensourcing its boards, Luxonis-DepthAI products are also moving in this direction.
 
 *(Kinova Jaco robotic arm)*
 ![Kino](Utils/kinova-WMRA.jpeg )

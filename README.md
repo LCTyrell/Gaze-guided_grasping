@@ -23,6 +23,10 @@ For this objective, we will use two OAK-D (a limited POC can be done with one OA
 The Gaze Estimation model comes from Intel Openvino. The implementation on NCS2 by the single member of the LCT Robocare team has been ported to DepthAI by the Luxonis team. The NCS2 implementation can be found on Github here:  
 [https://github.com/LCTyrell/Gaze_estimation](https://github.com/LCTyrell/Gaze_estimation)
 
+First test on mono camera (OAK-1, Gaze estimation + Mobilenet-SSD):  
+[https://github.com/LCTyrell/Object-looked-at_Estimation](https://github.com/LCTyrell/Object-looked-at_Estimation)  
+![blue](Utils/blue3.gif)
+
 The coordinates (x, y) and depth (z) position of the eyes will be determined using the stereo depth capability of the OAK-D and the landmark detection model already used as part of the gaze estimation model.
 
 Object detection with depth coordinates was a feature implemented very early by the Luxonis team and one of the reasons for the success of the OAK-D. It output bounding boxes, from the detected objects, located in space (x, y, z).

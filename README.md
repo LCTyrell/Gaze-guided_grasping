@@ -57,7 +57,7 @@ Ergo Jr is an economical robotic arm designed for education (GIF from ROS4PRO).
 
 ![Rob](Utils/MoveIt.gif )
 
-The prohibitive price of robotic arms (and even more specialized arms) forces us to find an alternative solution to test the model. So we chose the Ergo Jr robotic arm, which is inexpensive but has a long-standing community and relatively good features for a preliminary POC.
+The prohibitive price of robotic arms (and even more specialized arms) forced us to find an alternative solution to test the model. So we chose the Ergo Jr robotic arm, which is inexpensive but has a long-standing community and relatively good features for a preliminary POC.
 
 ![Kino](Utils/price.png )
 

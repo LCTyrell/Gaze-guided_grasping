@@ -45,7 +45,7 @@ Although this project is focused on creating the “Object Looked Estimation” 
 #### Unity ML-Agents
 *Test carried out on the Unity-ML agent robotic platform:*  
 
-![Rob](Utils/dummy.gif )
+![Rob](Utils/dummy2.gif )
 
 Preliminary tests have been carried out on the Unity ML-Agents robotic platform. (Adaptation of the Unity Robotics Demos : [https://github.com/LCTyrell/articulations-robot-demo](https://github.com/LCTyrell/articulations-robot-demo) )  
 The simulation allows you to quickly test many camera positions and the effect of different camera focal lengths.

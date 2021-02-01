@@ -43,9 +43,9 @@ Finally, we can send the coordinates to a robotic arm, to reach the object, with
 Although this project is focused on creating the “Object Looked Estimation” model, if time permits, we will be doing a demo with a robotic arm on a simulation (Unity), and/or an inexpensive educational robotic arm (Poppy Ergo Jr). Both are ROS compatible.
 
 #### Unity ML-Agents
-*Test carried out on the Unity-ML agent robotic platform (this still requires an avoid zone implementation):*  
+*Test carried out on the Unity-ML agent robotic platform:*  
 
-![Rob](Utils/WMArm.gif )
+![Rob](Utils/dummy.gif )
 
 Preliminary tests have been carried out on the Unity ML-Agents robotic platform. (Adaptation of the Unity Robotics Demos : [https://github.com/LCTyrell/articulations-robot-demo](https://github.com/LCTyrell/articulations-robot-demo) )  
 The simulation allows you to quickly test many camera positions and the effect of different camera focal lengths.

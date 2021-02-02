@@ -40,7 +40,7 @@ Finally, we can send the coordinates to a robotic arm, to reach the object, with
 
 ### Robotic Arm
 
-Although this project is focused on creating the “Object Looked Estimation” model, if time permits, we will be doing a demo with a robotic arm on a simulation (Unity), and/or an inexpensive educational robotic arm (Poppy Ergo Jr). Both are ROS compatible.
+Although this project is focused on creating the “Object Looked-at Estimation” model, if time permits, we will be doing a demo with a robotic arm on a simulation (Unity), and/or an inexpensive educational robotic arm (Poppy Ergo Jr). Both are ROS compatible.
 
 #### Unity ML-Agents
 *Test carried out on the Unity-ML agent robotic platform:*  

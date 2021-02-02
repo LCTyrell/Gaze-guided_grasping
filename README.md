@@ -48,12 +48,12 @@ Although this project is focused on creating the “Object Looked Estimation” 
 ![Rob](Utils/dummy2.gif )
 
 Preliminary tests have been carried out on the Unity ML-Agents robotic platform. (Adaptation of the Unity Robotics Demos : [https://github.com/LCTyrell/articulations-robot-demo](https://github.com/LCTyrell/articulations-robot-demo) )  
-The simulation allows you to quickly test many camera positions and the effect of different camera focal lengths.
-In addition, ML agents allow training neural networks to reach / grab an object. This method, unlike reverse kinematics, makes it possible to use less precise motors and therefore drastically reduce the price of the robotic arm used for this type of task.
+The simulation allows to quickly test many camera positions and the effect of different camera focal lengths.
+In addition, ML agents allow training neural networks to reach / grab an object. This method, unlike inverse kinematics, makes it possible to use less precise motors and therefore drastically reduce the price of the robotic arm used for this type of task.
 It's not part of the competition, but an interesting path to follow afterwards.
 
 #### Poppy Ergo Jr robotic arm
-Ergo Jr is an economical robotic arm designed for education (GIF from ROS4PRO).
+Ergo Jr is an economical robotic arm designed for education (Gif from ROS4PRO).
 
 ![Rob](Utils/MoveIt.gif )
 
